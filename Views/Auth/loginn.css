@@ -1,0 +1,116 @@
+
+:root{
+    --mainColor: #651c08;
+    --offWhite: #fff8dc;
+}
+
+body{
+    background-color: var(--offWhite);
+}
+
+form{
+    background-color: var(--offWhite);
+    width: 30%;
+    height: 400px;
+    position: fixed;
+    top: 20%;
+    bottom: 30%;
+    left: 35%;
+    right: 35%;
+    border: 5px solid var(--mainColor);
+    border-radius: 25px;
+    padding: 20px 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--mainColor);
+}
+
+div{
+    margin-bottom: 25px;
+    }
+
+#title{
+    background-color: var(--mainColor);
+    border: var(--mainColor);
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--offWhite);
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+    padding: 4px;
+}
+
+input{
+    background-color: var(--offWhite);
+    height: 30px;
+    width: 200px;
+    border-style: solid;
+    border-width: 1px 3px 3px 1px;
+    border-color: var(--mainColor);
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--mainColor);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+label{
+    font-size: 25px;
+    position: relative;
+    top: 6px;
+}
+
+::placeholder{
+    color: rgb(91, 91, 91);
+}
+
+#login{
+    background-color: var(--mainColor);
+    border: var(--mainColor);
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(250, 255, 222);
+    font-weight: bold;
+    height: 35px;
+    width: 25%;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 4px;
+}
+
+#signup{
+    color: var(--main-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#signup a{
+    color: var(--main-color);
+    font-style: normal;
+}
+#signup a:hover{
+    color: rgb(91, 91, 91);
+}
+
+.alert-div{
+    width: 70%;
+    line-height: 40px;
+    margin-left: 15%;
+    background-color: var(--mainColor);
+    color: var(--offWhite);
+    text-align: center;
+    border: var(--mainColor);
+    border-radius: 10px;
+}
+
+.alert-div span.alert{
+    vertical-align: middle;
+}

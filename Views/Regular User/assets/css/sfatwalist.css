@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #efe6dd; /* Brown background */
+    color: #503e36; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #503e36; /* Brown text */
+}
+
+select, button {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #503e36; /* Brown button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b5247; /* Darker brown on hover */
+}
+
+p {
+    margin-bottom: 10px;
+}
